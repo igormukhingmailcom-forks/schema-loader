@@ -8,6 +8,8 @@
     "bin": ["bin/dbtk-schema-loader"],
     "minimum-stability": "stable",
     "require": {
+        "php": ">=5.3",
+        "symfony/console": "~2.4",
         "doctrine/dbal": "~2.5"
     },
     "require-dev": {
